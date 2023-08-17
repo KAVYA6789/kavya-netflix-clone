@@ -6,3 +6,18 @@
     background-color: #111;
   
   }
+
+  @media  screen and (max-width: 350px) {
+    .HomePage {
+      width: 100%;
+      padding: 10px 0px;
+      margin-right: 1rem;
+    }
+  }
+
+  @media  screen and (min-width: 375px) {
+    .HomePage {
+      width: 100%;
+      padding: 0%;
+    }
+  }
